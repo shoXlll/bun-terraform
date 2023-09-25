@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  app:
+    container_name: bun-with-next-app
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - ./app:/usr/src/app
+      - node_modules:/usr/src/app/node_modules
+    command: ["dev"]
+
+volumes:
+  node_modules:
