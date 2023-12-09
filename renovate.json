@@ -10,6 +10,7 @@
   ],
   "lockFileMaintenance": {
     "enabled": true,
+    "prHourlyLimit": 0,
     "schedule": [
       "before 4am on the first day of the month"
     ]
