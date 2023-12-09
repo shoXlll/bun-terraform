@@ -1,8 +1,7 @@
-FROM oven/bun:1.0.3
+FROM oven/bun:1.0-alpine
 
-WORKDIR /usr/src/app
+WORKDIR /application
 
-COPY app/package.json ./ \
-     app/bun.lockb ./
+COPY package.json bun.lockb ./
 
 RUN bun install
