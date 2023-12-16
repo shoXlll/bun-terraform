@@ -10,7 +10,10 @@
   ],
   "lockFileMaintenance": {
     "enabled": true,
-    "prHourlyLimit": 0,
+    "ignorePaths": [
+      "application/bun.lockb",
+      "application/yarn.lock"
+    ],
     "schedule": [
       "before 4am on the first day of the month"
     ]
