@@ -1,4 +1,3 @@
-version: "3.8"
 services:
   application:
     container_name: application
