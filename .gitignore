@@ -4,3 +4,16 @@
 
 *.tsbuildinfo
 next-env.d.ts
+
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# backend configuration
+backend.conf
