@@ -1,0 +1,8 @@
+telemetry = false
+
+[console]
+depth = 5
+
+[install]
+exact = true
+saveTextLockfile = false
