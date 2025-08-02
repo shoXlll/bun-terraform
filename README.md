@@ -26,9 +26,10 @@ bun install
 docker run \
 --rm \
 -w /temp \
--v bun_node_modules:/temp/node_module/ \
+-v bun_node_modules:/temp/node_modules/ \
+-v ./application/bunfig.toml:/temp/bunfig.toml \
 -v ./application/package.json:/temp/package.json \
-oven/bun:1.0-alpine bun install
+oven/bun:1.2-alpine bun install
 ```
 
 ### update lockfile
@@ -37,9 +38,10 @@ oven/bun:1.0-alpine bun install
 docker run \
 --name package-installer \
 -w /temp \
--v bun_node_modules:/temp/node_module/ \
+-v bun_node_modules:/temp/node_modules/ \
+-v ./application/bunfig.toml:/temp/bunfig.toml \
 -v ./application/package.json:/temp/package.json \
-oven/bun:1.0-alpine bun install -y \
+oven/bun:1.2-alpine bun install -y \
 && docker cp package-installer:/temp/bun.lockb ./application/ \
 && docker cp package-installer:/temp/yarn.lock ./application/ \
 && docker rm -v package-installer
