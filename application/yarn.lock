@@ -407,12 +407,12 @@
   dependencies:
     tslib "^2.4.0"
 
-"@types/bun@1.2.19":
-  version "1.2.19"
-  resolved "https://registry.npmjs.org/@types/bun/-/bun-1.2.19.tgz"
-  integrity sha512-d9ZCmrH3CJ2uYKXQIUuZ/pUnTqIvLDS0SK7pFmbx8ma+ziH/FRMoAq5bYpRG7y+w1gl+HgyNZbtqgMq4W4e2Lg==
+"@types/bun@1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@types/bun/-/bun-1.4.0.tgz#d9e37d973448b437e9cbf3cea42c801b6662c777"
+  integrity sha512-K+lZULY23vRgK/CfTjFIV+tyifaNdSMlPh9j+6mQ/cLfpOznLyAuzgV/JQysyECpkBQLVMSyvjlr2fBUSA9wFQ==
   dependencies:
-    bun-types "1.2.19"
+    bun-types "1.4.0"
 
 "@types/estree@^1.0.6":
   version "1.0.8"
@@ -885,10 +885,10 @@ browserslist@^4.24.4:
     node-releases "^2.0.19"
     update-browserslist-db "^1.1.3"
 
-bun-types@1.2.19:
-  version "1.2.19"
-  resolved "https://registry.npmjs.org/bun-types/-/bun-types-1.2.19.tgz"
-  integrity sha512-uAOTaZSPuYsWIXRpj7o56Let0g/wjihKCkeRqUBhlLVM/Bt+Fj9xTo+LhC1OV1XDaGkz4hNC80et5xgy+9KTHQ==
+bun-types@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/bun-types/-/bun-types-1.4.0.tgz#2097c0712a18d86f7c9425c2538c65eb18638b13"
+  integrity sha512-iIKw23BspnQQYd3prITOBxeUsxBHnwzX6YJfGMuNOZzeNcMmVqzIIVGRm1l69ogaPQmb4wB6BN8mA5bE9YuC5Q==
   dependencies:
     "@types/node" "*"
 
