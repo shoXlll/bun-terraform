@@ -407,12 +407,12 @@
   dependencies:
     tslib "^2.4.0"
 
-"@types/bun@1.2.19":
-  version "1.2.19"
-  resolved "https://registry.npmjs.org/@types/bun/-/bun-1.2.19.tgz"
-  integrity sha512-d9ZCmrH3CJ2uYKXQIUuZ/pUnTqIvLDS0SK7pFmbx8ma+ziH/FRMoAq5bYpRG7y+w1gl+HgyNZbtqgMq4W4e2Lg==
+"@types/bun@1.4.3":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@types/bun/-/bun-1.4.3.tgz#176b77a2d55077647a7a8ab7682eef77b310ae8e"
+  integrity sha512-N67Pqy8JXbAY/j0tNraS3V5mubGvc6rrrNDmDCtZLlFzccbUJPDb0tvgUBC5q4m8ybkP93Jcn1QB+RYQ6PvBhw==
   dependencies:
-    bun-types "1.2.19"
+    bun-types "1.4.3"
 
 "@types/estree@^1.0.6":
   version "1.0.8"
@@ -885,12 +885,13 @@ browserslist@^4.24.4:
     node-releases "^2.0.19"
     update-browserslist-db "^1.1.3"
 
-bun-types@1.2.19:
-  version "1.2.19"
-  resolved "https://registry.npmjs.org/bun-types/-/bun-types-1.2.19.tgz"
-  integrity sha512-uAOTaZSPuYsWIXRpj7o56Let0g/wjihKCkeRqUBhlLVM/Bt+Fj9xTo+LhC1OV1XDaGkz4hNC80et5xgy+9KTHQ==
+bun-types@1.4.3:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/bun-types/-/bun-types-1.4.3.tgz#c8a214170396c01054441c3e1886a32f8360141e"
+  integrity sha512-tinRJNGOmUN+tEAsn2y2e942n9JHRHR42iUYzDH75NmhJqVBokGSQkkfSFdNWwsANIdrK6ACH9t01M452YyTwg==
   dependencies:
     "@types/node" "*"
+    undici-types "*"
 
 call-bind-apply-helpers@^1.0.0, call-bind-apply-helpers@^1.0.1, call-bind-apply-helpers@^1.0.2:
   version "1.0.2"
@@ -3092,6 +3093,11 @@ unbox-primitive@^1.1.0:
     has-bigints "^1.0.2"
     has-symbols "^1.1.0"
     which-boxed-primitive "^1.1.1"
+
+undici-types@*:
+  version "8.12.3"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-8.12.3.tgz#f58ee96cf9bed5809a14550edf483c979ab0bea7"
+  integrity sha512-EXE4ydL3S76dFb27UFjNVZHTyv/TLdATj/KUe29ptdcg6qXL48J2tZ3126E5kICj5jn781OR+XlVH1N6Mz8jbA==
 
 undici-types@~7.8.0:
   version "7.8.0"
